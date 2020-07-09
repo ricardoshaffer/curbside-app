@@ -1,5 +1,17 @@
 # curbside
-Curbside nearly ready to deploy.
+Curbside App, an application to allow users to post items they wish to give away with a location-based Google API (required). nearly ready to deploy.
+# Local Installation
+### 1. Clone the repo then run:
+`git clone git@github.com:ricardoshaffer/curbside-app.git`
+
+### 2. Install missing components
+* **Root Directory** `npm install`
+* **Client Folder** `npm install`
+
+### 3. Connect to Mongoose
+* `npm run seed`
+
+# Deploying Functioning Site:
 
 ## 1. Connecting to Heroku
   * in CLI, enter : ```heroku login```
@@ -19,7 +31,10 @@ Curbside nearly ready to deploy.
   * __ Back End __ : Go into server.js > replace the 'localhost' with the new URL & do the same to the 'scripts'> listingsSeed.js
 
 
-## Credits ##
+#  Credits
 * Home page image, image located on 'sign up', & 'sign out' are copyright by respective owner(s).
 * Content created by @dsarra1018, @makiwumi, @vsaleem, @KendraNeves, & @ricardoshaffer.
 * Developed using React.js, Node.js (backend), Google Geolocation API, FortAwesome (Font Awesome), etc.
+
+# License
+* MIT License, image(s), plugins, React.js components, etc. are copyright of respective owner(s). 2020
